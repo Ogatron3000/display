@@ -8,6 +8,7 @@ export default function Navbar() {
 
     function toggleDrawer() {
         setDrawerOpen(!drawerOpen)
+        document.body.style.overflow = !drawerOpen ? 'hidden' : 'unset';
     }
 
     return (
