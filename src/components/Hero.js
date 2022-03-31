@@ -7,7 +7,7 @@ export default function Hero() {
             <div className="relative bg-[url('./img/sunburst.png')] bg-no-repeat bg-cover bg-center max-h-[525px]">
                 <Container>
                     <div className="grid grid-cols-12 gap-5 w-full">
-                        <img src={devices} alt="" className="col-start-2 col-span-10 pt-[25%] -mb-[8%] -ml-5 transition delay-1000 animate-fade"/>
+                        <img src={devices} alt="" className="col-start-2 col-span-10 pt-[25%] -mb-[8%] -ml-[2.7%] transition delay-1000 animate-fade"/>
                     </div>
                 </Container>
             </div>
