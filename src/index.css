@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .animation-delay-750 {
+    animation-delay: 0.75s;
+  }
+  .animation-delay-1500 {
+    animation-delay: 1.5s;
+  }
+}
+
 @font-face {
   font-family: 'MyriadPro-Regular';
   src: url('./fonts/MyriadPro-Regular.woff') format('woff');

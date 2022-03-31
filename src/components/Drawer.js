@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Drawer({ toggleDrawer }) {
     return (
-        <div className="absolute bg-neutral-50 h-screen w-screen pt-4 px-4 sm:hidden">
+        <div className="absolute z-10 bg-neutral-50 h-screen w-screen pt-4 px-4 sm:hidden">
             <nav>
                 <ul className="flex flex-col text-center gap-6 text-lg">
                     <li>
