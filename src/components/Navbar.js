@@ -2,6 +2,7 @@ import {Link, NavLink} from "react-router-dom";
 import logo from "../img/logo.png";
 import React, {useState} from "react";
 import Drawer from "./Drawer";
+import Container from "./Container";
 
 export default function Navbar() {
     const [drawerOpen, setDrawerOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Navbar() {
 
     return (
         <header>
-            <div className="px-5 md:px-10 max-w-screen-lg mx-auto">
+            <Container>
                 <div className="flex items-center justify-between py-8">
                     <Link to="/">
                         <img className="w-24 sm:w-fit" src={logo} alt="Display."/>
@@ -111,7 +112,7 @@ export default function Navbar() {
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </Container>
             {drawerOpen && <Drawer toggleDrawer={toggleDrawer} />}
         </header>
     )
