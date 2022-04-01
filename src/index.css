@@ -9,6 +9,9 @@
   .animation-delay-1500 {
     animation-delay: 1.5s;
   }
+  .font-title {
+    font-family: 'Novecentosanswide-DemiBold', sans-serif;
+  }
 }
 
 @font-face {
@@ -24,6 +27,11 @@
 @font-face {
   font-family: 'MyriadPro-Bold';
   src: url('./fonts/MyriadPro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Novecentosanswide-DemiBold';
+  src: url('./fonts/Novecentosanswide-DemiBold.woff') format('woff');
 }
 
 body {
