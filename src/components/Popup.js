@@ -9,10 +9,10 @@ export default function Popup({isOpen, setIsOpen}) {
     }
 
     return ReactDom.createPortal(
-        <div id="portal-modal" className="fixed h-screen w-screen left-0 top-0 overflow-hidden">
+        <div id="portal-modal" className="fixed h-screen w-screen left-0 top-0 overflow-hidden z-20">
             <div className="w-full h-full bg-neutral-600 opacity-50" onClick={close}/>
             <iframe
-                className="absolute z-30 bottom-0 top-0 left-0 right-0 m-auto sm:w-[600px] sm:h-[300px]"
+                className="absolute bottom-0 top-0 left-0 right-0 m-auto sm:w-[600px] sm:h-[300px]"
                 src={`https://www.youtube.com/embed/P-DCgzFbo_o`}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
