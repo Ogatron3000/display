@@ -1,18 +1,15 @@
 import Container from "../components/Container";
 import about from '../img/about.png'
 import Tabs from "../components/Tabs";
+import Banner from "../components/Banner";
 
 export default function About() {
     return (
         <>
-            <div className="bg-green-500 py-8 mb-12">
-                <Container>
-                    <h1 className="uppercase text-2xl sm:text-3xl text-white font-title">About My Business</h1>
-                </Container>
-            </div>
+            <Banner content={"About My Business"} />
 
             <Container>
-                <div className="mb-12 grid grid-cols-12 gap-5">
+                <div className="py-12 grid grid-cols-12 gap-5">
                     <img src={about} alt="" className="col-span-12 sm:col-span-5 mx-auto" />
                     <div className="col-span-12 sm:col-span-7 flex flex-col justify-between">
                         <p className="text-sm mb-4">
