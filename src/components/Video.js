@@ -28,7 +28,7 @@ export default function Video() {
                         </button>
                     </div>
                     <div className="col-span-12 md:col-span-7 flex flex-col justify-between">
-                        <h1 className="text-2xl mb-4 leading-none">
+                        <h1 className="text-2xl mb-4 leading-none font-title uppercase">
                             Get To Know Us a Little Better!
                         </h1>
                         <p className="text-sm mb-4">

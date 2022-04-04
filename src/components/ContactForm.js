@@ -83,7 +83,7 @@ export default function ContactForm() {
                     </div>
                     <button
                         disabled={isSubmitting}
-                        className="text-sm text-white font-bold uppercase bg-green-500 w-fit p-3 hover:bg-green-400 flex items-center"
+                        className="text-sm text-white font-title uppercase uppercase bg-green-500 w-fit p-3 hover:bg-green-400 flex items-center"
                         type="submit"
                         aria-label="Send Message"
                     >
@@ -106,7 +106,7 @@ export default function ContactForm() {
                     <button
                         disabled={isSubmitting}
                         onClick={() => reset({isSubmitted: false})}
-                        className="p-3 text-sm bg-green-500 text-white text-bold uppercase font-bold hover:bg-green-400"
+                        className="p-3 text-sm bg-green-500 text-white font-title uppercase uppercase font-bold hover:bg-green-400"
                     >
                         Send another
                     </button>

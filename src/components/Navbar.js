@@ -89,25 +89,25 @@ export default function Navbar() {
                 </div>
                 <div className="h-px bg-neutral-300 hidden sm:block" />
                 <nav className="py-8 hidden sm:block">
-                    <ul className="flex gap-6 md:gap-12 text-lg">
+                    <ul className="flex gap-6 md:gap-12 text-lg font-title lowercase">
                         <li>
                             <NavLink to="/" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                <span className="uppercase">Home</span>
+                                <span>Home</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/about" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                <span className="uppercase">About</span>
+                                <span>About</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/work" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                <span className="uppercase">Work</span>
+                                <span>Work</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/Contact" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                <span className="uppercase">Contact</span>
+                                <span>Contact</span>
                             </NavLink>
                         </li>
                     </ul>

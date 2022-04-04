@@ -8,17 +8,17 @@ export default function Footer() {
             <div className="bg-zinc-800">
                 <Container>
                     <div className="flex flex-col items-center justify-between sm:flex-row items-center py-12">
-                        <h2 className="text-neutral-100 text-center mb-8 sm:mb-0 text-2xl">
+                        <h2 className="text-neutral-100 text-center mb-8 sm:mb-0 text-2xl font-title uppercase">
                             Are You Ready To Be Blown Away?
                         </h2>
-                        <Link to="/work" className="flex items-center bg-green-500 text-white font-bold text-sm uppercase w-fit h-10 px-5 hover:bg-green-400">
+                        <Link to="/work" className="flex items-center bg-green-500 text-white font-title uppercase text-sm uppercase w-fit h-10 px-5 hover:bg-green-400">
                             Click here to find out
                         </Link>
                     </div>
                 </Container>
             </div>
             <Container>
-                <div className="text-xs py-6 flex flex-wrap gap-6 justify-between uppercase">
+                <div className="text-xs py-6 flex flex-wrap gap-6 justify-between font-title lowercase">
                     <div>
                         Copyright 2013 Display. All rights reserved.
                     </div>

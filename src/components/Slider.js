@@ -24,7 +24,7 @@ export default function Slider() {
     return (
         <div className="py-12">
             <Container>
-                <h1 className="text-2xl mb-6 text-center">A Couple of Our Featured Projects</h1>
+                <h1 className="text-2xl mb-6 text-center font-title uppercase">A Couple of Our Featured Projects</h1>
                 <p className="text-center text-sm">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris.
                     Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt
@@ -85,7 +85,7 @@ export default function Slider() {
                                 {projects.map(proj => (
                                     <SwiperSlide key={proj.id}>
                                         <div className="text-center">
-                                            <h2 className="mb-6 text-lg">
+                                            <h2 className="mb-6 text-lg font-title uppercase">
                                                 {proj.name}
                                             </h2>
                                             <p className="text-sm">

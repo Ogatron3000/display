@@ -4,7 +4,7 @@ export default function ProjectNav({ grid, setGrid, handleClick, activeFilter })
         return (
             <li
                 key={filter}
-                className="text-lg uppercase after:content-['\00a0\00a0/\00a0'] last:after:content-none"
+                className="font-title lowercase text-lg uppercase after:content-['\00a0\00a0/\00a0'] last:after:content-none"
             >
                 <span
                     className={"cursor-pointer " + (filter === activeFilter ? "text-green-500 pointer-events-none" : null)}
