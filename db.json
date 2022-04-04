@@ -1,31 +1,193 @@
 {
   "projects": [
-        { "id": 1, "category": "web", "image": "/images/proj-1.png" },
-        { "id": 2, "category": "web", "image": "/images/proj-2.png" },
-        { "id": 3, "category": "photography", "image": "/images/proj-3.png" },
-        { "id": 4, "category": "web", "image": "/images/proj-4.png" },
-        { "id": 5, "category": "web", "image": "/images/proj-5.png" },
-        { "id": 6, "category": "web", "image": "/images/proj-6.png" },
-        { "id": 7, "category": "web", "image": "/images/proj-7.png" },
-        { "id": 8, "category": "web", "image": "/images/proj-8.png" },
-        { "id": 9, "category": "print", "image": "/images/proj-9.png" },
-        { "id": 10, "category": "web", "image": "/images/proj-1.png" },
-        { "id": 11, "category": "web", "image": "/images/proj-2.png" },
-        { "id": 12, "category": "photography", "image": "/images/proj-3.png" },
-        { "id": 13, "category": "web", "image": "/images/proj-4.png" },
-        { "id": 14, "category": "web", "image": "/images/proj-5.png" },
-        { "id": 15, "category": "web", "image": "/images/proj-6.png" },
-        { "id": 16, "category": "web", "image": "/images/proj-7.png" },
-        { "id": 17, "category": "web", "image": "/images/proj-8.png" },
-        { "id": 18, "category": "print", "image": "/images/proj-9.png"},
-        { "id": 19, "category": "web", "image": "/images/proj-1.png" },
-        { "id": 20, "category": "web", "image": "/images/proj-2.png" },
-        { "id": 21, "category": "photography", "image": "/images/proj-3.png" },
-        { "id": 22, "category": "web", "image": "/images/proj-4.png" },
-        { "id": 23, "category": "web", "image": "/images/proj-5.png" },
-        { "id": 24, "category": "web", "image": "/images/proj-6.png" },
-        { "id": 25, "category": "web", "image": "/images/proj-7.png" },
-        { "id": 26, "category": "web", "image": "/images/proj-8.png" },
-        { "id": 27, "category": "print", "image": "/images/proj-9.png"}
-    ]
+    {
+      "id": 1,
+      "name": "Nature",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Dark UI Kit Freebie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-2.png"
+    },
+    {
+      "id": 3,
+      "name": "Skating",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "photography",
+      "image": "/images/proj-3.png"
+    },
+    {
+      "id": 4,
+      "name": "Boogeyman",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-4.png"
+    },
+    {
+      "id": 5,
+      "name": "Social Networks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-5.png"
+    },
+    {
+      "id": 6,
+      "name": "Jesus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-6.png"
+    },
+    {
+      "id": 7,
+      "name": "Glasses",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-7.png"
+    },
+    {
+      "id": 8,
+      "name": "Bang Bang!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-8.png"
+    },
+    {
+      "id": 9,
+      "name": "Lost?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "print",
+      "image": "/images/proj-9.png"
+    },
+    {
+      "id": 10,
+      "name": "Nature",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-1.png"
+    },
+    {
+      "id": 11,
+      "name": "Dark UI Kit Freebie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-2.png"
+    },
+    {
+      "id": 12,
+      "name": "Skating",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "photography",
+      "image": "/images/proj-3.png"
+    },
+    {
+      "id": 13,
+      "name": "Boogeyman",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-4.png"
+    },
+    {
+      "id": 14,
+      "name": "Social Networks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-5.png"
+    },
+    {
+      "id": 15,
+      "name": "Jesus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-6.png"
+    },
+    {
+      "id": 16,
+      "name": "Glasses",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-7.png"
+    },
+    {
+      "id": 17,
+      "name": "Bang Bang!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-8.png"
+    },
+    {
+      "id": 18,
+      "name": "Lost?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "print",
+      "image": "/images/proj-9.png"
+    },
+    {
+      "id": 19,
+      "name": "Nature",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-1.png"
+    },
+    {
+      "id": 20,
+      "name": "Dark UI Kit Freebie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-2.png"
+    },
+    {
+      "id": 21,
+      "name": "Skating",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "photography",
+      "image": "/images/proj-3.png"
+    },
+    {
+      "id": 22,
+      "name": "Boogeyman",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-4.png"
+    },
+    {
+      "id": 23,
+      "name": "Social Networks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-5.png"
+    },
+    {
+      "id": 24,
+      "name": "Jesus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-6.png"
+    },
+    {
+      "id": 25,
+      "name": "Glasses",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-7.png"
+    },
+    {
+      "id": 26,
+      "name": "Bang Bang!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "web",
+      "image": "/images/proj-8.png"
+    },
+    {
+      "id": 27,
+      "name": "Lost?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur culpa deserunt doloremque error exercitationem iste laudantium magnam nulla.",
+      "category": "print",
+      "image": "/images/proj-9.png"
+    }
+  ]
 }
