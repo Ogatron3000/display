@@ -65,7 +65,7 @@ export default function Slider() {
                 </div>
                 <Container>
                     <div className="flex items-center grid grid-cols-12 gap-2 md:gap-5 mx-auto justify-between">
-                        <button className="swiper-button-prev col-span-1 md:col-start-3 fill-neutral-200">
+                        <button className="swiper-button-prev col-span-1 md:col-start-3 fill-neutral-200" aria-label="Move slider back.">
                             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="21" height="31" viewBox="0 0 21 31">
                                 <path d="M15.294,-0.001 L0.001,15.500 L15.294,31.001 L20.999,25.298 L11.332,15.500 L20.999,5.702 L15.294,-0.001 Z" />
                             </svg>
@@ -96,7 +96,7 @@ export default function Slider() {
                                 ))}
                             </Swiper>
                         </div>
-                        <button className="swiper-button-next col-start-12 col-span-1 md:col-start-10 ml-auto fill-green-500">
+                        <button className="swiper-button-next col-start-12 col-span-1 md:col-start-10 ml-auto fill-green-500" aria-label="Move slider forward.">
                             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="21" height="31" viewBox="0 0 21 31">
                                 <path d="M5.706,31.001 L20.999,15.500 L5.706,-0.001 L0.001,5.702 L9.668,15.500 L0.001,25.298 L5.706,31.001 Z" />
                             </svg>

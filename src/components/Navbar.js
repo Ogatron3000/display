@@ -32,7 +32,7 @@ export default function Navbar() {
                     </button>
                     <ul className="hidden sm:flex sm:gap-2">
                         <li>
-                            <a className="fill-gray-300 hover:fill-sky-400" href="#">
+                            <a className="fill-gray-300 hover:fill-sky-400" href="#" aria-label="Twitter">
                                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="33.438"
                                      height="33.75" viewBox="0 0 33.438 33.75">
                                     <path
@@ -41,7 +41,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a className="fill-gray-300 hover:fill-blue-400" href="#">
+                            <a className="fill-gray-300 hover:fill-blue-400" href="#" aria-label="Facebook">
                                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="33.467"
                                      height="33.75" viewBox="0 0 33.467 33.75">
                                     <path
@@ -50,7 +50,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a className="fill-gray-300 hover:fill-orange-500" href="#">
+                            <a className="fill-gray-300 hover:fill-orange-500" href="#" aria-label="RSS">
                                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="34"
                                      height="34" viewBox="0 0 33.47 33.75">
                                     <path
@@ -59,7 +59,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a className="fill-gray-300 hover:fill-red-600" href="#">
+                            <a className="fill-gray-300 hover:fill-red-600" href="#" aria-label="Pinterest">
                                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="33.47"
                                      height="33.75" viewBox="0 0 33.47 33.75">
                                     <path
@@ -68,7 +68,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a className="fill-gray-300 hover:fill-orange-600" href="#">
+                            <a className="fill-gray-300 hover:fill-orange-600" href="#" aria-label="Google+">
                                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="33.44"
                                      height="33.75" viewBox="0 0 33.44 33.75">
                                     <path
@@ -77,7 +77,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a className="fill-gray-300 hover:fill-pink-500" href="#">
+                            <a className="fill-gray-300 hover:fill-pink-500" href="#" aria-label="Dribble">
                                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="33.44"
                                      height="33.75" viewBox="0 0 33.44 33.75">
                                     <path
