@@ -92,22 +92,22 @@ export default function Navbar() {
                     <ul className="flex gap-6 md:gap-12 text-lg">
                         <li>
                             <NavLink to="/" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                Home
+                                <span className="uppercase">Home</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/about" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                About
+                                <span className="uppercase">About</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/work" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                Work
+                                <span className="uppercase">Work</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/Contact" className={({ isActive }) => isActive ? "text-green-500" : null}>
-                                Contact
+                                <span className="uppercase">Contact</span>
                             </NavLink>
                         </li>
                     </ul>
