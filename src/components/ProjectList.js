@@ -5,7 +5,7 @@ import Spinner from "./Spinner";
 export default function ProjectList({ projectsData, grid, loadProjects, fetching}) {
     let projectsToDisplay = projectsData.data.map(proj => (
             <div className={grid ? "col-span-6 sm:col-span-4" : "col-span-12"} key={proj.id}>
-                <Project img={proj.image} />
+                <Project img={proj.image} alt={proj.name} />
             </div>
         )
     )

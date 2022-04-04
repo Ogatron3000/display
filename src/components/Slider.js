@@ -57,7 +57,7 @@ export default function Slider() {
                         {projects.map(proj => (
                             <SwiperSlide key={proj.id}>
                                 <div className="max-w-[300px] mx-auto">
-                                    <Project img={proj.image} />
+                                    <Project img={proj.image} alt={proj.name} />
                                 </div>
                             </SwiperSlide>
                         ))}

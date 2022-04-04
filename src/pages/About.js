@@ -10,7 +10,11 @@ export default function About() {
 
             <Container>
                 <div className="py-12 grid grid-cols-12 gap-5">
-                    <img src={about} alt="" className="col-span-12 sm:col-span-5 mx-auto" />
+                    <img
+                        src={about}
+                        alt="Man working on the computer while talking on the phone."
+                        className="col-span-12 sm:col-span-5 mx-auto"
+                    />
                     <div className="col-span-12 sm:col-span-7 flex flex-col justify-between">
                         <p className="text-sm mb-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue

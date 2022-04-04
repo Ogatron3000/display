@@ -1,7 +1,7 @@
-export default function Project({ img }) {
+export default function Project({ img, alt }) {
     return (
         <a className="relative flex justify-center w-full h-full max-h-[200px] group cursor-pointer">
-            <img className="w-full object-cover" src={img} alt=""/>
+            <img className="w-full object-cover" src={img} alt={alt} />
             <div className="absolute bg-neutral-100 w-full h-full opacity-50 invisible group-hover:visible" />
             <div className="absolute m-auto w-12 h-12 md:w-24 md:h-24 left-0 right-0 top-0 bottom-0 fill-white bg-green-500 rounded-full flex items-center justify-center invisible group-hover:visible">
                 <svg className="w-5 md:w-8" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 33 42">

@@ -16,7 +16,7 @@ export default function Video() {
             <Container>
                 <div className="grid grid-cols-12 gap-x-5 gap-y-8 py-10">
                     <div className="col-span-12 md:col-span-5 mx-auto relative h-fit">
-                        <img src={video} alt="" />
+                        <img src={video} alt="Video player." />
                         <button
                             onClick={open}
                             className="fill-neutral-200 absolute top-1/3 right-1/2 translate-x-1/2"
