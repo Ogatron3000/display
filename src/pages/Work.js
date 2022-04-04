@@ -3,6 +3,7 @@ import Container from "../components/Container";
 import {useEffect, useState} from "react";
 import ProjectNav from "../components/ProjectNav";
 import ProjectList from "../components/ProjectList";
+import {Helmet} from "react-helmet";
 
 export default function Work() {
     const [activeFilter, setActiveFilter] = useState('all')
@@ -47,6 +48,11 @@ export default function Work() {
 
     return (
         <>
+            <Helmet>
+                <title>Display - Work</title>
+                <meta name="description" content="Display portfolio." />
+                <link rel="canonical" href="http://localhost:3000/work" />
+            </Helmet>
             <Banner content="Check out what I can do" />
             <div className="py-12">
                 <Container>

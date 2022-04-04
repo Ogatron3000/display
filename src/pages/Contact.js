@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import Container from "../components/Container";
 import GoogleMapReact from 'google-map-react'
 import ContactForm from "../components/ContactForm";
+import {Helmet} from "react-helmet";
 
 function Marker() {
     return (
@@ -14,7 +15,14 @@ function Marker() {
 export default function Contact() {
     return (
         <>
+            <Helmet>
+                <title>Display - Contact</title>
+                <meta name="description" content="Display contact." />
+                <link rel="canonical" href="http://localhost:3000/contact" />
+            </Helmet>
+
             <Banner content={"Got a Question or Inquiry?"} />
+
             <div className="mb-12">
                 <div style={{ height: '500px', width: '100%' }}>
                     <GoogleMapReact
