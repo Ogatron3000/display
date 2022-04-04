@@ -4,17 +4,21 @@ export default function ProjectNav({ grid, setGrid, handleClick, activeFilter })
         return (
             <li
                 key={filter}
-                className={"text-lg uppercase cursor-pointer " + (filter === activeFilter ? 'text-green-500' : null)}
-                onClick={() => handleClick(filter)}
+                className="text-lg uppercase after:content-['\00a0\00a0/\00a0'] last:after:content-none"
             >
-                {filter[0].toUpperCase() + filter.substring(1)}
+                <span
+                    className={"cursor-pointer " + (filter === activeFilter ? "text-green-500 pointer-events-none" : null)}
+                    onClick={() => handleClick(filter)}
+                >
+                    {filter[0].toUpperCase() + filter.substring(1)}
+                </span>
             </li>
         )
     })
 
     return (
         <div className="flex gap-6 justify-between mb-12">
-            <ul className="flex flex-wrap gap-5">
+            <ul className="flex flex-wrap">
                 {filtersToDisplay}
             </ul>
             <div className="flex self-start my-2">

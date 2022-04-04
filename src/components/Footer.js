@@ -11,9 +11,9 @@ export default function Footer() {
                         <h2 className="text-neutral-100 text-center mb-8 sm:mb-0 text-2xl">
                             Are You Ready To Be Blown Away?
                         </h2>
-                        <button className="bg-green-500 text-white font-bold text-sm uppercase w-fit h-10 px-5 hover:bg-green-400">
+                        <Link to="/work" className="flex items-center bg-green-500 text-white font-bold text-sm uppercase w-fit h-10 px-5 hover:bg-green-400">
                             Click here to find out
-                        </button>
+                        </Link>
                     </div>
                 </Container>
             </div>
@@ -23,11 +23,19 @@ export default function Footer() {
                         Copyright 2013 Display. All rights reserved.
                     </div>
                     <nav>
-                        <ul>
-                            <Link to="/">Home</Link> /
-                            <Link to="/about"> About</Link> /
-                            <Link to="/work"> Work</Link> /
-                            <Link to="/Contact"> Contact</Link>
+                        <ul className="flex">
+                            <li className="after:content-['_/\00a0']">
+                                <Link to="/">Home</Link>
+                            </li>
+                            <li className="after:content-['_/\00a0']">
+                                <Link to="/about">About</Link>
+                            </li>
+                            <li className="after:content-['_/\00a0']">
+                                <Link to="/work">Work</Link>
+                            </li>
+                            <li>
+                                <Link to="/contact">Contact</Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>

@@ -1,5 +1,6 @@
 import Container from "./Container";
 import devices from "../img/devices.png";
+import {Link} from "react-router-dom";
 
 export default function Hero() {
     return (
@@ -21,9 +22,9 @@ export default function Hero() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu eratiuy lacus, vel congue
                             mauris. Fusce velitaria justo, faucibus eu.
                         </p>
-                        <button className="bg-green-500 text-white font-bold text-sm uppercase w-fit h-10 px-5 hover:bg-green-400 block mx-auto opacity-0 animate-fade animation-delay-1500">
+                        <Link to="/work" className="flex items-center bg-green-500 text-white font-bold text-sm uppercase w-fit h-10 px-5 hover:bg-green-400 block mx-auto opacity-0 animate-fade animation-delay-1500">
                             Browse Portfolio
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </Container>

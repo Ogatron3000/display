@@ -1,9 +1,0 @@
-.swiper-slide {
-    opacity: 0.5;
-    pointer-events: none;
-}
-
-.swiper-slide-active {
-    opacity: 1;
-    pointer-events: unset;
-}

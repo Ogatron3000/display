@@ -1,5 +1,4 @@
 import Container from "./Container";
-import "./Slider.css";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Controller, Navigation} from "swiper";
 import 'swiper/css';
