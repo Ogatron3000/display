@@ -60,22 +60,24 @@ export default function Contact() {
                         <div className="w-[270px]">
                             <h2 className="font-title text-2xl uppercase mb-6">Store Hours</h2>
                             <table className="w-full">
-                                <tr>
-                                    <td>Monday - Thursday</td>
-                                    <td>8 am - 5 pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday</td>
-                                    <td>8 am - 6 pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday</td>
-                                    <td>9 am - 5 pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday</td>
-                                    <td>Closed</td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday - Thursday</td>
+                                        <td>8 am - 5 pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td>8 am - 6 pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>9 am - 5 pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
