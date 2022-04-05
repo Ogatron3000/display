@@ -10,9 +10,9 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <div className="bg-neutral-50 text-neutral-500 flex flex-col justify-between h-100">
+        <div className="bg-neutral-50 text-neutral-500 flex flex-col justify-between min-h-screen">
             <Navbar />
-            <main className="flex-1 h-100">
+            <main className="flex-1 flex flex-col">
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
