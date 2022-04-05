@@ -33,11 +33,11 @@ export default function Contact() {
 
             <Container>
                 <div className="grid grid-cols-12 gap-x-5 gap-y-12 mb-12 ">
-                    <div className="col-span-12 sm:col-span-7">
+                    <div className="col-span-12 md:col-span-7">
                         <ContactForm />
                     </div>
 
-                    <div className="flex flex-wrap justify-between gap-12 text-sm row-start-1 col-span-12 sm:col-start-9 sm:col-span-4 self-start">
+                    <div className="flex flex-wrap justify-between gap-12 text-sm row-start-1 col-span-12 md:col-start-9 md:col-span-4 self-start">
                         <div className="w-[270px]">
                             <h2 className="font-title text-2xl uppercase mb-6">Contact Info</h2>
                             <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, provident?</p>
@@ -59,22 +59,24 @@ export default function Contact() {
 
                         <div className="w-[270px]">
                             <h2 className="font-title text-2xl uppercase mb-6">Store Hours</h2>
-                            <div className="flex justify-between">
-                                <span>Monday - Thursday</span>
-                                <span>8 am - 5 pm</span>
-                            </div>
-                            <div className="flex justify-between">
-                                <span>Friday</span>
-                                <span>8 am - 6 pm</span>
-                            </div>
-                            <div className="flex justify-between">
-                                <span>Saturday</span>
-                                <span>9 am - 5 pm</span>
-                            </div>
-                            <div className="flex justify-between">
-                                <span>Sunday</span>
-                                <span>Closed</span>
-                            </div>
+                            <table className="w-full">
+                                <tr>
+                                    <td>Monday - Thursday</td>
+                                    <td>8 am - 5 pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>8 am - 6 pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>9 am - 5 pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
