@@ -2,16 +2,16 @@ import Container from "../components/Container";
 import about from '../img/about.png'
 import Tabs from "../components/Tabs";
 import Banner from "../components/Banner";
-import {Helmet} from "react-helmet";
+import Head from "../components/Head";
 
 export default function About() {
     return (
         <>
-            <Helmet>
-                <title>Display - About</title>
-                <meta name="description" content="About My Business." />
-                <link rel="canonical" href="http://localhost:3000/about" />
-            </Helmet>
+            <Head
+                title="Display - About"
+                description="About. We are dedicated, professional and vision-driven."
+                url="http://localhost:3000/about"
+            />
 
             <Banner content={"About My Business"} />
 

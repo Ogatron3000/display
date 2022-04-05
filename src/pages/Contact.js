@@ -4,15 +4,16 @@ import GoogleMapReact from 'google-map-react'
 import ContactForm from "../components/ContactForm";
 import {Helmet} from "react-helmet";
 import Marker from "../components/Marker";
+import Head from "../components/Head";
 
 export default function Contact() {
     return (
         <>
-            <Helmet>
-                <title>Display - Contact</title>
-                <meta name="description" content="Display contact." />
-                <link rel="canonical" href="http://localhost:3000/contact" />
-            </Helmet>
+            <Head
+                title="Display - Contact"
+                description="Contact. We look forward to hearing from you."
+                url="http://localhost:3000/contact"
+            />
 
             <Banner content={"Got a Question or Inquiry?"} />
 

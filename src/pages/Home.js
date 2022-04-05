@@ -1,16 +1,16 @@
 import Hero from "../components/Hero";
 import Video from "../components/Video";
 import Slider from "../components/Slider";
-import {Helmet} from "react-helmet";
+import Head from "../components/Head";
 
 export default function Home() {
     return (
         <>
-            <Helmet>
-                <title>Display</title>
-                <meta name="description" content="Display application." />
-                <link rel="canonical" href="http://localhost:3000" />
-            </Helmet>
+            <Head
+                title="Display"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                url="http://localhost:3000"
+            />
             <Hero />
             <Video />
             <Slider />
