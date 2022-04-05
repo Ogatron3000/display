@@ -19,7 +19,7 @@ export default function Video() {
                         <img src={video} alt="Video player." />
                         <button
                             onClick={open}
-                            className="fill-neutral-200 absolute top-1/3 right-1/2 translate-x-1/2"
+                            className="fill-neutral-200 absolute top-1/3 right-1/2 translate-x-1/2 hover:fill-neutral-100"
                             aria-label="Play 'Get to know us a little better' video."
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="45" height="56" viewBox="0 0 45 56">
