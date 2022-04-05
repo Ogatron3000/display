@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import ProjectNav from "../components/ProjectNav";
 import ProjectList from "../components/ProjectList";
 import {Helmet} from "react-helmet";
+import {getProjects} from "../services/projects";
 
 export default function Work() {
     const [activeFilter, setActiveFilter] = useState('all')
@@ -17,16 +18,11 @@ export default function Work() {
 
     useEffect(() => {
         setFetching(true)
-        loadProjects(1)
+        loadProjects(1, activeFilter)
     }, [activeFilter])
 
-    function loadProjects(page) {
-        let url = `http://localhost:4000/projects?_page=${page}&_limit=9`
-        if (activeFilter !== 'all') {
-            url += `&category=${activeFilter}`
-        }
-        fetch(url)
-            .then(response => response.json())
+    function loadProjects(page , filter) {
+        getProjects(page, filter)
             .then(projects => {
                 setProjectsData(prevState => ({
                     page: prevState.page + 1,
@@ -65,7 +61,7 @@ export default function Work() {
                     <ProjectList
                         grid={grid}
                         projectsData={projectsData}
-                        loadProjects={loadProjects}
+                        loadProjects={() => loadProjects(projectsData.page + 1, activeFilter)}
                         fetching={fetching}
                     />
                 </Container>

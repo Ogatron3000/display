@@ -5,14 +5,13 @@ import 'swiper/css';
 import {useEffect, useState} from "react";
 import Project from "./Project";
 import Spinner from "./Spinner";
+import {getProjects} from "../services/projects";
 
 export default function Slider() {
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:4000/projects?_page=1&_limit=9')
-            .then(response => response.json())
-            .then(projects => setProjects(projects))
+        getProjects().then(projects => setProjects(projects))
     }, [])
 
     if (projects.length === 0) return (
