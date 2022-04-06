@@ -18,7 +18,7 @@ https://developers.google.com/recaptcha/intro#recaptcha-overview
 
 After than, you can start the server:
 ```
-json-server --watch db.json --port 4000 --delay 1000
+npx json-server --watch db.json --port 4000 --delay 1000
 ```
 And finally, run the app:
 ```
